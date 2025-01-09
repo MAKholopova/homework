@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+  /* цвет фона страницы */
+  background-color: #aa25a856;
+  /* настройки шрифта */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  /* отступы */
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  /* центрирование текста заголовка */
+  text-align: center;
+  /* цвет текста заголовка */
+  color: #333;
+  margin-top: 20px;
+}
+
+.avatar {
+  /* центрирование аватара */
+  display: block;
+  margin: 20px auto;
+  /* размер аватара */
+  width: 150px;
+  height: 150px;
+  /* закругление аватара до круга */
+  border-radius: 50%;
+  /* рамка вокруг аватара */
+  border: 3px solid #333;
+}
+
+section {
+  /* ограничение ширины секции и её центрирование */
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section h2 {
+  /* цвет заголовка секции */
+  color: #6e1a1a;
+}
+
+ul,
+ol {
+  /* центрирование списков и их оформление */
+  margin: 20px auto;
+  padding: 0;
+  list-style-position: inside;
+  max-width: 300px;
+}
+
+ul li,
+ol li {
+  /* отступы между элементами списка */
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
